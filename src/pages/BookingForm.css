@@ -1,0 +1,36 @@
+
+  
+  /* Heading (places it in a straight line at the top of the form) */
+  .form h2 {
+    margin-bottom: 15px; /* Adds spacing below the heading */
+    font-size: 2em;
+    font-weight: bold;
+    color: rgb(34, 16, 16);
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+  }
+  /* Background image behind the form */
+/* Background Image only for BookingForm */
+.booking-form {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: url("https://i0.wp.com/exquisitemag.com/wp-content/uploads/2025/02/1583275772247.jpeg") no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Center the form */
+  .form {
+    position: relative;
+    width: 500px; /* Adjust form size */
+    padding: 30px;
+    background: rgba(237, 228, 228, 0.85); /* Semi-transparent background */
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+    text-align: center;
+  }
+  

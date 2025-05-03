@@ -1,0 +1,215 @@
+/* Home.css */
+
+.home-container {
+    padding: 40px;
+    text-align: center;
+    font-family: "Segoe UI", sans-serif;
+  }
+  
+  .home-container h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-top: 15px;
+  }
+  
+  .home-container p {
+    color: #555;
+    margin: 10px 0 30px;
+  }
+  
+  .states-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+    justify-items: center;
+  }
+  
+  .state-card {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.07);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column; /* Ensures name appears below image */
+     
+      
+  }
+  
+  .state-card:hover {
+    transform: scale(1.02);
+  }
+  
+  .state-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  .state-info {
+    padding: 15px;
+    text-align: left;
+  }
+  
+  .state-info h3 {
+    font-weight: bold;
+    margin-top: 10px; /* Adjust if needed */
+  }  
+  
+  .state-info p {
+    margin: 5px 0;
+    color: #777;
+  }
+  
+  .state-info span {
+    color: #ff6600;
+    font-weight: 600;
+  }
+  .states-name {
+    font-weight: bold;
+    text-align: center; /* Ensures name is properly placed */
+    margin-top: 20px; /* Adjust spacing below the image */
+  }
+  .marquee-container {
+    margin-bottom: 5px;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  .marquee-text {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff6600;
+    padding: 10px;
+    background-color: #f8f8f8;
+    animation: marqueeAnimation 10s linear infinite;
+  }
+  
+  @keyframes marqueeAnimation {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+  }
+  .about-section, .contact-section {
+    max-width: 800px;
+    margin: auto;
+    padding: 40px;
+    text-align: center;
+    background: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-section h2, .contact-section h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .about-section p, .contact-section p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .contact-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  .contact-section input, .contact-section textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact-section textarea {
+    resize: vertical;
+  }
+  
+  .contact-section button {
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background: #ff6600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .contact-section button:hover {
+    background: #e65c00;
+  }
+  .footer {
+    background: #222; /* Darker background for better contrast */
+    color: white; /* Ensures text is readable */
+    padding: 30px 0;
+    text-align: center;
+    font-size: 16px;
+    border-top: 4px solid #ff6600;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .footer-section {
+    flex: 1;
+    min-width: 200px;
+  }
+  
+  .footer-section h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #ff6600; /* Highlights section titles */
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin: 5px 0;
+  }
+  
+  .footer-section ul li a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  .footer-section ul li a:hover {
+    color: #ff6600;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .social-icons a {
+    color: white;
+    font-size: 24px;
+    transition: 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: #ff6600;
+  }
+  
