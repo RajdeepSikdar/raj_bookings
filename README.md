@@ -12,16 +12,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ![Screenshot Example](https://raw.githubusercontent.com/RajdeepSikdar/raj_bookings/main/images/Screenshot_2025-05-03_085503.png)
 ![Screenshot Example](https://raw.githubusercontent.com/RajdeepSikdar/raj_bookings/main/images/Screenshot_2025-05-03_085515.png)
 ![Screenshot Example](https://raw.githubusercontent.com/RajdeepSikdar/raj_bookings/main/images/Screenshot_2025-05-03_085533.png)
-
-![Screenshot 2025-05-02 200813](images/Screenshot 2025-05-03 084842.png)
-![Screenshot 2025-05-02 200813](images/Screenshot 2025-05-03 084856.png)
-![Screenshot 2025-05-02 200813](images/Screenshot 2025-05-03 084930.png)
-![Screenshot 2025-05-02 200813](images/Screenshot 2025-05-03 084935.png)
-![Screenshot 2025-05-02 200813](images/Screenshot 2025-05-03 084952.png)
-![Screenshot 2025-05-02 200813](images/Screenshot 2025-05-03 085458.png)
-![Screenshot 2025-05-02 200813](images/Screenshot 2025-05-03 085503.png)
-![Screenshot 2025-05-02 200813](images/Screenshot 2025-05-03 085515.png)
-![Screenshot 2025-05-02 200813](images/Screenshot 2025-05-03 085533.png)
 ## Available Scripts
 
 In the project directory, you can run:
