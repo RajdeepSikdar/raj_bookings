@@ -2,16 +2,16 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![Screenshot 2025-05-02 200813](images\Screenshot 2025-05-03 084834.png)
-![Screenshot 2025-05-02 200813](images\Screenshot 2025-05-03 084842.png)
-![Screenshot 2025-05-02 200813](images\Screenshot 2025-05-03 084856.png)
-![Screenshot 2025-05-02 200813](images\Screenshot 2025-05-03 084930.png)
-![Screenshot 2025-05-02 200813](images\Screenshot 2025-05-03 084935.png)
-![Screenshot 2025-05-02 200813](images\Screenshot 2025-05-03 084952.png)
-![Screenshot 2025-05-02 200813](images\Screenshot 2025-05-03 085458.png)
-![Screenshot 2025-05-02 200813](images\Screenshot 2025-05-03 085503.png)
-![Screenshot 2025-05-02 200813](images\Screenshot 2025-05-03 085515.png)
-![Screenshot 2025-05-02 200813](images\Screenshot 2025-05-03 085533.png)
+![Screenshot 2025-05-02 200813](images/Screenshot 2025-05-03 084834.png)
+![Screenshot 2025-05-02 200813](images/Screenshot 2025-05-03 084842.png)
+![Screenshot 2025-05-02 200813](images/Screenshot 2025-05-03 084856.png)
+![Screenshot 2025-05-02 200813](images/Screenshot 2025-05-03 084930.png)
+![Screenshot 2025-05-02 200813](images/Screenshot 2025-05-03 084935.png)
+![Screenshot 2025-05-02 200813](images/Screenshot 2025-05-03 084952.png)
+![Screenshot 2025-05-02 200813](images/Screenshot 2025-05-03 085458.png)
+![Screenshot 2025-05-02 200813](images/Screenshot 2025-05-03 085503.png)
+![Screenshot 2025-05-02 200813](images/Screenshot 2025-05-03 085515.png)
+![Screenshot 2025-05-02 200813](images/Screenshot 2025-05-03 085533.png)
 ## Available Scripts
 
 In the project directory, you can run:
