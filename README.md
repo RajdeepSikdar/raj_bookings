@@ -5,7 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ![Screenshot Example](https://raw.githubusercontent.com/RajdeepSikdar/raj_bookings/main/images/Screenshot_2025-05-03_084834.png)
 ![Screenshot Example](https://raw.githubusercontent.com/RajdeepSikdar/raj_bookings/main/images/Screenshot_2025-05-03_084842.png)
 ![Screenshot Example](https://raw.githubusercontent.com/RajdeepSikdar/raj_bookings/main/images/Screenshot_2025-05-03_084856.png)
-![Screenshot Example](https://raw.githubusercontent.com/RajdeepSikdar/raj_bookings/images/Screenshot 2025-05-03 084930.png)
+![Screenshot Example](https://raw.githubusercontent.com/RajdeepSikdar/raj_bookings/main/images/Screenshot_2025-05-03_084930.png)
 ![Screenshot Example](https://raw.githubusercontent.com/RajdeepSikdar/raj_bookings/main/images/Screenshot_2025-05-03_084935.png)
 ![Screenshot Example](https://raw.githubusercontent.com/RajdeepSikdar/raj_bookings/main/images/Screenshot_2025-05-03_084952.png)
 ![Screenshot Example](https://raw.githubusercontent.com/RajdeepSikdar/raj_bookings/main/images/Screenshot_2025-05-03_085458.png)
