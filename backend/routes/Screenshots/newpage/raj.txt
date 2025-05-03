@@ -1,0 +1,64 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+    <head> 
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Restaurant Webpage </title> 
+        <link rel="stylesheet" href="stylesL3.css"> 
+    </head> 
+    <body> 
+        <header> 
+            <div class="resname">Food Haven</div> 
+            <nav> 
+                <ul> 
+                    <li><a href="#home">Home</a></li> 
+                    <li><a href="#menu">Menu</a></li> 
+                    <li><a href="#contact">Contact</a></li> 
+                </ul> 
+            </nav> 
+        </header> 
+        <br><br> 
+        <section id="home"> 
+            <div class="home1"> 
+                <h1>Welcome to Food Haven</h1> 
+                <p>Where every bite takes you to Heaven!</p> 
+            </div> 
+        </section> 
+ 
+        <section id="menu"> 
+            <h2>Our Menu</h2> 
+            <div class="menu-items"> 
+                <article class="menu-item"> 
+                    <img src="dish1.jpeg" alt="Dish 1"> 
+                    <h3>Smoked Chicken Pizza</h3> 
+                    <p>Authentic Italian pizza with an Indian Twist.</p> 
+                    <span>$15</span> 
+                </article> 
+                <br><br> 
+                <article class="menu-item"> 
+                    <img src="dish2.jpg" alt="Dish 2"> 
+                    <h3>Spaghetti Carbonari</h3> 
+                    <p>Fresh Spaghetti with tons of cheese.</p> 
+                    <span>$12</span> 
+                </article> 
+                <br><br> 
+                <article class="menu-item"> 
+                    <img src="dish3.jpeg" alt="Dish 3"> 
+                    <h3>Cheeseburger</h3> 
+                    <p>Juicy burger with a generous layer of cheese.</p> 
+                    <span>$10</span> 
+                </article> 
+            </div> 
+        </section> 
+ 
+        <section id="contact"> 
+            <h2>Contact Us</h2> 
+            <p>Location: #123 3rd cross, Near Presidency University </p> 
+            <p>Phone: +91 75412 56985</p> 
+            <p>Email: foodhaven123@gmail.com</p> 
+        </section> 
+        <footer> 
+            <p>&copy; 2025 Food Haven. All Rights Reserved.</p> 
+        </footer> 
+    </body>    
+</html>

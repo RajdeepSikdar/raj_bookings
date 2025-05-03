@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raj Foods</title>
+    <link rel="stylesheet" href="stylesL3.css">
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f8f8f8;
+        }
+
+        header {
+            background: linear-gradient(#000000, #FFD700);
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            background: #333;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* CSS for the carousel */
+        .carousel-container {
+            position: relative;
+            max-width: 100%;
+            margin: auto;
+        }
+
+        .carousel-slide {
+            display: none;
+            position: absolute;
+            width: 100%;
+        }
+
+        .carousel-slide img {
+            width: 100%;
+        }
+
+        .carousel-slide.active {
+            display: block;
+        }
+
+        .carousel-controls {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .carousel-controls button {
+            background-color: #333;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            margin: 5px;
+        }
+
+        .carousel-controls button:hover {
+            background-color: #feb47b;
+        }
+
+        /* Additional CSS for form enhancements */
+        form {
+            max-width: 500px;
+            margin: auto;
+        }
+
+        input, textarea, button {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #000;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #feb47b;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            nav ul {
+                flex-direction: column;
+            }
+
+            input, textarea, button {
+                width: 100%;
+            }
+        }
+
+        /* Menu Styles */
+        .menu-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .menu-item {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 200px; /* Set fixed width for items */
+        }
+
+        .menu-item img {
+            width: 100%;
+            height: 150px;
+            border-radius: 8px;
+        }
+
+        footer {
+            background: linear-gradient(#000000, #FFD700);
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo"><h1>Raj Foods</h1></div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <h1>Welcome to Raj Foods</h1>
+        <p><center>Always here to Serve you</center></p>
+        <h2>Sign Up</h2>
+        <form id="signupForm">
+            <label for="name">Name: </label>
+            <input type="text" id="name" required><br>
+            <label for="email">Email: </label>
+            <input type="email" id="email" required><br>
+            <label for="password">Password: </label>
+            <input type="password" id="password" required><br>
+            <label for="dob">Date of Birth: </label>
+            <input type="date" id="dob" required><br>
+            <label for="contact">Contact Number: </label>
+            <input type="tel" id="contact" required><br>
+            <label>Preferences: </label>
+            <input type="radio" name="food" value="veg" id="veg" required> Veg
+            <input type="radio" name="food" value="nonveg" id="nonveg" required> Non-Veg<br>
+            <button type="submit">Sign Up</button>
+        </form>
+    </section>
+    
+    <section id="menu">
+        <center><h2>Our Menu</h2></center>
+        <div class="menu-container">
+            <div class="menu-item">
+                <img src="https://www.indianhealthyrecipes.com/wp-content/uploads/2021/07/veg-manchurian.jpg" alt="Veg Manchurian">
+                <h3>Veg Manchurian</h3>
+            </div>
+            <div class="menu-item">
+                <img src="https://www.indianhealthyrecipes.com/wp-content/uploads/2021/07/butter-chicken.jpg" alt="Butter Chicken">
+                <h3>Butter Chicken</h3>
+            </div>
+            <div class="menu-item">
+                <img src="https://www.indianhealthyrecipes.com/wp-content/uploads/2021/07/oats-pongal.jpg" alt="Oats Pongal">
+                <h3>Oats Pongal</h3>
+            </div>
+            <div class="menu-item">
+                <img src="https://www.indianhealthyrecipes.com/wp-content/uploads/2021/07/butter-naan.jpg" alt="Butter Naan">
+                <h3>Butter Naan</h3>
+            </div>
+            <div class="menu-item">
+                <img src="https://insanelygoodrecipes.com/wp-content/uploads/2021/07/chickpea-curry.jpg" alt="Chickpea Curry">
+                <h3>Chickpea Curry</h3>
+            </div>
+            <div class="menu-item">
+                <img src="https://insanelygoodrecipes.com/wp-content/uploads/2021/07/aloo-gobi.jpg" alt="Aloo Gobi">
+                <h3>Aloo Gobi</h3>
+            </div>
+            <div class="menu-item">
+                <img src="https://insanelygoodrecipes.com/wp-content/uploads/2021/07/chicken-saag.jpg" alt="Chicken Saag">
+                <h3>Chicken Saag</h3>
+            </div>
+            <div class="menu-item">
+                <img src="https://insanelygoodrecipes.com/wp-content/uploads/2021/07/chicken-curry.jpg" alt="Chicken Curry">
+                <h3>Chicken Curry</h3>
+            </div>
+        </div>
+    </section>
+    
+    <section id="about">
+        <center>
+            <h2>About Us</h2>
+            <p>We invite you to experience the rich flavors of authentic Indian cuisine, prepared with the freshest ingredients and traditional cooking methods</p>
+        </center>
+    </section>
+    
+    <footer>
+        <h3>Feedback</h3>
+        <form>
+            <textarea placeholder="Write your feedback here..."></textarea><br>
+            <button type="submit">Submit</button>
+        </form>
+        <p>&copy; 2025 Raj Foods. All Rights Reserved.</p>
+    </footer>
+    
+    <!-- Toast message container -->
+    <div id="toast"></div>
+
+    <script>
+        document.getElementById("signupForm").addEventListener("submit", function(event) {
+            event.preventDefault(); // Prevent the form from submitting
+
+            // Gather the input values
+            const name = document.getElementById("name").value;
+            const email = document.getElementById("email").value;
+            const dob = document.getElementById("dob").value;
+            const contact = document.getElementById("contact").value;
+            const preferences = document.querySelector('input[name="food"]:checked').value;
+
+            // Construct the toast message
+            const toastMessage = `Name: ${name}, Email: ${email}, Date of Birth: ${dob}, Contact: ${contact}, Preferences: ${preferences}`;
+
+            // Display the toast message
+            const toast = document.getElementById("toast");
+            toast.innerHTML = toastMessage;
+            toast.className = "show";
+            setTimeout(function() {
+                toast.className = toast.className
