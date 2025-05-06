@@ -1,4 +1,5 @@
 # Getting Started with Create React App
+Sikdar Getaways is a captivating travel experience that offers adventure, relaxation, and cultural immersion. Nestled in scenic landscapes, it provides breathtaking views, serene accommodations, and thrilling activities that cater to nature lovers and explorers. Whether you seek tranquil retreats or adrenaline-pumping adventures, Sikdar Getaways ensures a memorable escape with its rich heritage and diverse attractions. Visitors can enjoy guided tours, wildlife encounters, and local cuisine, making every trip special. With a blend of modern comforts and natural beauty, it stands out as an ideal destination for travelers looking to unwind and explore in a unique and enriching way.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
